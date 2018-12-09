@@ -11,7 +11,7 @@ def Checker(pm_n=(2, 4)):
     else:
         print(mp, 'is not a Mersenne Prime. Awww :(')
 
-
+# change the '2' on line 17 with the quantity of your processors.
 if __name__ == '__main__':
     from multiprocessing import Pool
     with Pool(2) as pool:
