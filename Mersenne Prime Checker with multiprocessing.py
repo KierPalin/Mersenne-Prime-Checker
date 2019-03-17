@@ -1,4 +1,4 @@
-# Each thread will check it's own number for Mersenne Primality
+# Each Processor will check it's own number for Mersenne Primality.
 
 
 def Checker(pm_n=(2, 4)):
